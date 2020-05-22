@@ -1,0 +1,9 @@
+/* 随机生成唯一类名，避免css样式冲突 */
+.myActive{
+  background:pink
+}
+
+/* 恢复个别为全局样式 */
+:global(#cocoid) {
+  color: #ccc;
+}
